@@ -1,0 +1,44 @@
+@import "../../variable";
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  .register-content-container {
+    margin-top: 150px;
+    width: 550px;
+    .register-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      margin: 10px 0;
+    }
+    .sub-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+      .sub-header-content {
+        text-align: center;
+      }
+    }
+    .form-container .form-group {
+      display: flex;
+      flex-wrap: wrap;
+      width: 550px;
+      .field-container {
+        flex: 1 250px;
+        margin: 10px;
+      }
+    }
+    .form-action {
+      display: flex;
+      justify-content: center;
+      margin-top: 25px;
+      .action-items {
+        flex: 1 250px;
+        margin: 0 10px;
+      }
+    }
+  }
+}

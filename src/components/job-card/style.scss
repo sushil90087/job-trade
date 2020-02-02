@@ -1,0 +1,47 @@
+.card-container {
+  .job-card {
+    min-height: 100px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #aaa;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 12px;
+    .job-title {
+      font-family: Roboto-Medium;
+      text-transform: capitalize;
+      font-size: 14px;
+    }
+    .company-name {
+      text-transform: capitalize;
+    }
+    .exp,
+    .loc {
+      display: flex;
+      align-items: center;
+    }
+    .exp {
+      padding-right: 15px;
+    }
+    .job-field {
+      display: flex;
+      align-items: center;
+      padding: 2px 0;
+      svg {
+        height: 20px;
+      }
+      .job-text {
+          padding-left: 5px;
+      }
+    }
+    .align-field {
+        padding-left: 5px;
+    }
+    .bold {
+        font-family: Roboto-Medium;
+    }
+    .action-button {
+        justify-content: space-between;
+    }
+  }
+}

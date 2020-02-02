@@ -1,0 +1,27 @@
+@import "../../variable";
+
+.dynamic-form-container {
+  display: flex;
+  justify-content: center;
+  .form-container .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    width: 550px;
+    .field-container {
+      flex: 1 250px;
+      margin: 10px;
+    }
+    svg {
+      fill: #3f51b5 ;
+    }
+  }
+  .form-action {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    .action-items {
+      flex: 1 250px;
+      margin: 0 10px;
+    }
+  }
+}
